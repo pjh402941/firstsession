@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+p {
+  font-size: 20px;
+}
+
+/* nav */
+nav .container {
+  position: fixed;
+  top: 7%;
+  left: 50%;
+  width: 760px;
+  text-align: center;
+  border-top: 1px solid black;
+  /* 요소 치우침 복구 */
+  transform: translateX(-50%);
+}
+
+nav p {
+  display: inline-block;
+  width: 80px;
+  margin-right: 80px;
+}
+nav p:last-child {
+  margin-right: 0;
+}
+
+/* header */
+.hd .container {
+  position: relative;
+  height: 800px;
+  text-align: center;
+  margin: 180px auto 0px;
+  font-size: 60px;
+}
+.hd-lion {
+  font-size: 100px;
+  margin-bottom: 0;
+}
+
+/* black */
+.black {
+  height: 350px;
+  background-color: black;
+  color: darkgrey;
+  font-size: 70px;
+  text-align: center;
+}
+.question {
+  padding-top: 100px;
+  margin: 0;
+}
+.scroll {
+  margin-top: 50px;
+  color: white;
+  font-size: 20px;
+}
+
+/* picture */
+.sec .About {
+  padding: 120px 0 0 0;
+  text-align: center;
+}
+
+/* bar */
+.bar {
+  margin-top: 30px;
+}
+.bar p {
+  margin-top: 0;
+}
+.icon {
+  display: inline-block;
+  font-size: 40px;
+  margin: 0 0 10px 0;
+}
+/* 주황색 변경 */
+progress {
+  appearance: none;
+}
+progress::-webkit-progress-value {
+  background-color: orange;
+}
+
+/* info */
+.info {
+  display: inline-block;
+  padding: 20px 70px;
+  border-radius: 10px;
+}
+.subinfo {
+  text-align: center;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+.subinfo article {
+  width: 300px;
+}
+.like,
+.interest {
+  border: 2px solid black;
+  margin-right: 30px;
+  border-radius: 10px;
+  height: 150px;
+}
+.title {
+  color: white;
+  background-color: black;
+  height: 40px;
+  margin: 0;
+}
+.content {
+  margin-top: 35px;
+}
+
+/* footer */
+.ft {
+  width: 100%;
+  background-color: rgb(196, 196, 196);
+  height: 100px;
+}
+.ft .container {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.call,
+.email {
+  width: 250px;
+  color: white;
+}
